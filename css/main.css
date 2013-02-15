@@ -1,0 +1,178 @@
+html, body{
+  background-color: #eff1f5;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #666e79;
+  font-family: 'ProximaNova', sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 22px;
+}
+html {
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+}
+h1{
+    color: #fff;
+    font-family: 'ProximaNovaBold', sans-serif;
+    font-size: 86px;
+    font-weight: 400;
+    margin: 92px 0 30px;
+}
+h2{
+    color: #39414c;
+    font-family: 'ProximaNovaBold', sans-serif;
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+h3{
+    font-family: 'ProximaNovaBold', sans-serif;
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+p{
+    color: #666e79;
+    font-weight: 400;
+    margin: 0 0 18px;
+}
+#intro{
+    background-color: #010005;
+    border-bottom: 1px solid #fff;
+    margin: 0 0 50px;
+}
+#intro .g6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#intro p{
+    color: #d3d3d3;
+    margin: 0 0 40px;
+}
+#intro img{
+    display: block;
+    margin: 0 auto;
+}
+#video{
+    border: 1px solid #a6a6a6;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+footer{
+
+}
+#action{
+    background-color: #f7f7f7;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(247, 247, 247)), to(rgb(232, 232, 232)));
+    background-image: -webkit-linear-gradient(top, rgb(247, 247, 247), rgb(232, 232, 232));
+    background-image: -moz-linear-gradient(top, rgb(247, 247, 247), rgb(232, 232, 232));
+    background-image: -o-linear-gradient(top, rgb(247, 247, 247), rgb(232, 232, 232));
+    background-image: -ms-linear-gradient(top, rgb(247, 247, 247), rgb(232, 232, 232));
+    background-image: linear-gradient(top, rgb(247, 247, 247), rgb(232, 232, 232));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f7f7f7', EndColorStr='#e8e8e8');
+    border: 1px solid #b8b8b8;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset, 0 1px 3px rgba(0,0,0,0.2);
+    border-radius: 3px;
+    margin: 60px 0 10px;
+    padding: 23px 14px 14px;
+}
+#action h3{
+    display: inline-block;
+    font-size: 32px;
+    margin: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+#social{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#social li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+#social a{
+    color: #4d5156;
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: text-top;
+}
+#social a:hover{
+    color: #323538;
+}
+#social i{
+    font-weight: bold;
+}
+#social #twitter{
+    color: #3b5a9b;
+}
+#social #facebook{
+    color: #10abf3;
+}
+#social #linkedin{
+    color: #0e76a8;
+}
+.copy{
+    color: #74818d;
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+.btn{
+    background-color: #208eff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 142, 255)), to(rgb(29, 127, 224)));
+    background-image: -webkit-linear-gradient(top, rgb(32, 142, 255), rgb(29, 127, 224));
+    background-image: -moz-linear-gradient(top, rgb(32, 142, 255), rgb(29, 127, 224));
+    background-image: -o-linear-gradient(top, rgb(32, 142, 255), rgb(29, 127, 224));
+    background-image: -ms-linear-gradient(top, rgb(32, 142, 255), rgb(29, 127, 224));
+    background-image: linear-gradient(top, rgb(32, 142, 255), rgb(29, 127, 224));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#208eff', EndColorStr='#1d7fe0');
+    border: 1px solid #0d3863;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 1px 1px 0 rgba(255, 255, 255, 0.3) inset, 0 -1px 1px rgba(255, 255, 255, 0.3) inset, -1px 1px rgba(255, 255, 255, 0.3) inset, 0 3px 3px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 1;
+    padding: 12px 40px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+}
+blockquote {
+    margin: 80px auto;
+    text-align: center;
+    width: 745px;
+    padding: 0 0 0 15px;
+    position: relative;
+}
+blockquote p {
+    color: #303942;
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    line-height: 1.3;
+    margin: 0 0 10px;
+}
+blockquote p:before {
+    color: #D6D6D4;
+    content: "\201C";
+    font-size: 91px;
+    line-height: 1;
+    position: absolute;
+    left: -20px;
+    top: -12px;
+}
+blockquote p:after {
+    color: #D6D6D4;
+    content: "\201D";
+    font-size: 91px;
+    line-height: 1;
+    position: absolute;
+    right: -35px;
+    top: -12px;
+}
+blockquote cite{
+    color: #7f8a94;
+}
