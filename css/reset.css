@@ -37,12 +37,14 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 a{
+    color: #208EFF;
     text-decoration: none;
 }
 a:focus{
     outline:thin dotted
 }
 a:active,a:hover{
+    color: #1d7cdb;
     outline:0
 }
 html,
