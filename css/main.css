@@ -20,9 +20,9 @@ body {
 h1{
     color: #fff;
     font-family: 'ProximaNovaBold', sans-serif;
-    font-size: 75px;
+    font-size: 82px;
     font-weight: 400;
-    margin: 92px 0 30px;
+    margin: 103px 0 35px;
 }
 h2{
     color: #39414c;
@@ -41,9 +41,10 @@ p{
     margin: 0 0 18px;
 }
 #intro{
-    background-color: #010005;
+    background: url("../img/kevinquinn.jpg") no-repeat top right #000000;
     border-bottom: 1px solid #fff;
     margin: 0 0 50px;
+    min-height: 590px;
 }
 #intro .g6{
     margin-top: 0;
@@ -51,7 +52,7 @@ p{
 }
 #intro p{
     color: #d3d3d3;
-    margin: 0 0 40px;
+    margin: 0 0 71px;
 }
 #intro img{
     display: block;

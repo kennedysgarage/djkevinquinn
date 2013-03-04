@@ -52,6 +52,15 @@
 	.al{max-width: 748px}
 	.al a{display: inline-block;float: right;}
 	.al span{display: none;}
+	#intro{
+		background-position: 183px 0px;
+	}
+	#intro h1{
+		font-size: 65px;
+	}
+	blockquote{
+		width: auto;
+	}
 }
 /* ---------
  -- 480px --
@@ -73,6 +82,12 @@
 	.g11{max-width: 460px}
 	.g12{max-width: 460px}
 	.al{display: none;}
+	#intro{
+		background-position: 183px 0px;
+	}
+	blockquote{
+		width: auto;
+	}
 }
 /* ---------
  -- 320px --
@@ -94,4 +109,16 @@
 	.g11{max-width: 300px}
 	.g12{max-width: 300px}
 	.al{display: none;}
+	#intro{
+		background-image: none;
+	}
+	#intro h1{
+		font-size: 51px;
+	}
+	#intro p {
+    margin: 0 0 33px;
+	}
+	blockquote{
+		width: auto;
+	}
 }
